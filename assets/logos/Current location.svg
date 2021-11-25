@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#222b45" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Current_location" data-name="Current location" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Rectangle)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="40" height="40" rx="8" transform="translate(15 10)" fill="#fff"/>
+    </g>
+    <path id="Shape_Copy" data-name="Shape Copy" d="M19.728.351a1,1,0,0,0-.29-.19h-.09a.86.86,0,0,0-.31-.15h-.05a1,1,0,0,0-.3,0l-18,6a1,1,0,0,0,0,1.9l8.53,2.84S19.812.438,19.728.351Z" transform="translate(10 10)" fill="#73809b"/>
+  </g>
+</svg>
